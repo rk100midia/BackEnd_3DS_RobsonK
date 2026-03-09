@@ -8,7 +8,9 @@ time [5]
 time [6] = "Gabriel"
 
 for (const jogador of time) {
+  if (jogador != undefined) {
     console.log(jogador)
+  }
     
 }
 
